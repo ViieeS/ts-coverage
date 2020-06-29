@@ -1,0 +1,20 @@
+{
+  "name": "ts-coverage",
+  "version": "0.1.0",
+  "description": "TypeScript codebase coverage histogram",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViieeS/ts-coverage.git"
+  },
+  "main": "index.js",
+  "bin": "./cli.js",
+  "author": "ViES <vies@list.ru>",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "ascii-histogram": "^1.2.1",
+    "chalk": "^4.1.0",
+    "globby": "^11.0.1",
+    "yargs": "^15.3.1"
+  }
+}
