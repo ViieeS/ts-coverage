@@ -10,6 +10,6 @@ ts-coverage print simple histogram so you can always know how close to the goal 
 *Output*
 
 ```
-.js(x) | ############################################################ | 1933 (97.9%)
-.ts(x) | #                                                            | 41 (2.1%)
+.js(x) | ################# | 1933 (97.9%)
+.ts(x) | #                 | 41 (2.1%)
 ```
