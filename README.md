@@ -1,7 +1,7 @@
 # ts-coverage
 
 When you migrate your project to TypeScript it's useful to track the progress.
-ts-coverage print simple histogram so you can always know how close to the goal you are.
+Ts-coverage print a simple histogram so you can always know how close to the goal you are.
 
 ## Example
 
