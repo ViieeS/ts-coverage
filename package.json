@@ -1,11 +1,16 @@
 {
   "name": "ts-coverage",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "TypeScript codebase coverage histogram",
   "repository": {
     "type": "git",
     "url": "https://github.com/ViieeS/ts-coverage.git"
   },
+  "keywords": [
+    "TypeScript coverage",
+    "programming language ratio",
+    "TypeScript JavaScript histogram"
+  ],
   "main": "index.js",
   "bin": "./cli.js",
   "author": "ViES <vies@list.ru>",
