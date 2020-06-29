@@ -1,6 +1,6 @@
 {
   "name": "ts-coverage",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "TypeScript codebase coverage histogram",
   "repository": {
     "type": "git",
