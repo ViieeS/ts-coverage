@@ -47,8 +47,8 @@ module.exports = async (directory = process.cwd()) => {
 		extensions[extension] = (extensions[extension] || 0) + 1;
 	}
 
-	const jsx = extensions['.js'] + extensions['.jsx'];
-	const tsx = extensions['.ts'] + extensions['.tsx'];
+	const jsx = (extensions['.js'] || 0) + (extensions['.jsx'] || 0);
+	const tsx = (extensions['.ts'] || 0) + (extensions['.tsx'] || 0);
 
 	const data = {
 		'.js(x)': jsx || 0,
